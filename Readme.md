@@ -75,6 +75,10 @@
 
 - Github setup completed successfully
 
+## GET API used
+
+- GET API has been implemented to access user details for the Profile
+
 # PLAN
 
 ## 📌 Week 1: Project Setup & Authentication
