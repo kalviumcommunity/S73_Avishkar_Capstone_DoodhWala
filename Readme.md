@@ -1,6 +1,6 @@
 # DOODHWALA WEB APPLICATION
 
-## Project: DOODHWALA🥛
+## Project: DOODHWALA 🥛
 
 ### Problem Statement:
 
