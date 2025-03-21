@@ -83,6 +83,10 @@
 
 - Created the database Schema named user.js
 
+## Initialized a react/frontend application - branch: DeployFrontend
+
+- Initialized a React frontend application, setting up the project structure and essential configurations.
+
 ## GET API used - branch: GETapi
 
 - GET API has been implemented to access user details for the Profile
