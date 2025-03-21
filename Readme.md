@@ -79,6 +79,10 @@
 
 - Deployed Backend using Mongo Atlas
 
+## DB Schema created - branch: DBschema
+
+- Created the database Schema named user.js
+
 ## GET API used - branch: GETapi
 
 - GET API has been implemented to access user details for the Profile
