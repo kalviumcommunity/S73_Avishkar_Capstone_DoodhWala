@@ -79,13 +79,17 @@
 
 - Deployed Backend using Mongo Atlas
 
+## DB Schema created - branch: DBschema
+
+- Created the database Schema named user.js
+
 ## GET API used - branch: GETapi
 
 - GET API has been implemented to access user details for the Profile
 
 ## POST API used - branch: POSTapi
 
-- POST API has been implemented to fetch the signup and login data from the request body, also I did implemet the Login and Signup functionality
+- POST API has been implemented to fetch the signup and login data from the request body, also I did implement the Login and Signup functionality
   in backend as well as frontend.
 
 # PLAN
