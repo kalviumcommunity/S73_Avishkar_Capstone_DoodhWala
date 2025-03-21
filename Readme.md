@@ -104,7 +104,7 @@
 
 - Created three components Navbar.jsx, Login.jsx and Signup.jsx
 
-## Implemented authentication (username / password) in application
+## Implemented authentication (username / password) in application - branch: LoginAuth
 
 - Implemented authentication logic for the loggin in of user (authController.js)
 
