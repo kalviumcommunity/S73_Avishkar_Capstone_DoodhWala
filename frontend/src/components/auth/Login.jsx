@@ -52,7 +52,7 @@ const Login = () => {
         {/* Toggle Email/Contact */}
         <div className="relative flex items-center w-full mb-4 bg-gray-200 rounded-full overflow-hidden ">
           <motion.div
-            className="absolute top-0 left-0 h-full w-1/2 bg-red-600 rounded-full "
+            className="absolute top-0 left-0 h-full w-1/2 bg-gradient-to-r from-red-600 to-yellow-500 rounded-full "
             initial={{ x: method === "email" ? 0 : "100%" }}
             animate={{ x: method === "email" ? 0 : "100%" }}
             transition={{ type: "spring", stiffness: 150, damping: 12 }}
