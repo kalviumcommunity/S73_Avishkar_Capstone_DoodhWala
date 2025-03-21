@@ -104,6 +104,10 @@
 
 - Created three components Navbar.jsx, Login.jsx and Signup.jsx
 
+## Implemented authentication (username / password) in application
+
+- Implemented authentication logic for the loggin in of user (authController.js)
+
 # PLAN
 
 ## 📌 Week 1: Project Setup & Authentication
