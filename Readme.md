@@ -92,6 +92,10 @@
 - POST API has been implemented to fetch the signup and login data from the request body, also I did implement the Login and Signup functionality
   in backend as well as frontend.
 
+## Database Read and Write Performed
+
+- Implemented database read and write functionality by connecting the server to the database (adding user in database and fetching data from backend for the profile) and making API calls for data operations
+
 # PLAN
 
 ## 📌 Week 1: Project Setup & Authentication
