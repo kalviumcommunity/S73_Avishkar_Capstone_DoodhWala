@@ -83,6 +83,10 @@
 
 - Created the database Schema named user.js
 
+## Initialized a react/frontend application - branch: DeployFrontend
+
+- Initialized a React frontend application, setting up the project structure and essential configurations.
+
 ## GET API used - branch: GETapi
 
 - GET API has been implemented to access user details for the Profile
@@ -92,7 +96,7 @@
 - POST API has been implemented to fetch the signup and login data from the request body, also I did implement the Login and Signup functionality
   in backend as well as frontend.
 
-## Database Read and Write Performed
+## Database Read and Write Performed - branch: dbReadWrite
 
 - Implemented database read and write functionality by connecting the server to the database (adding user in database and fetching data from backend for the profile) and making API calls for data operations
 
