@@ -79,9 +79,9 @@
 
 - GET API has been implemented to access user details for the Profile
 
-## GET API used
+## POST API used
 
-- POST API has been implemented to fetch the signup and login data from the request body, also I did implemet the Login and Signup functionality
+- POST API has been implemented to fetch the signup and login data from the request body, also I did implement the Login and Signup functionality
   in backend as well as frontend.
 
 # PLAN
