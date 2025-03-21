@@ -83,7 +83,7 @@
 
 - Created the database Schema named user.js
 
-## Initialized a react/frontend application - branch: DeployFrontend
+## Initialized a react/frontend application - branch: initReact
 
 - Initialized a React frontend application, setting up the project structure and essential configurations.
 
@@ -99,6 +99,10 @@
 ## Database Read and Write Performed - branch: dbReadWrite
 
 - Implemented database read and write functionality by connecting the server to the database (adding user in database and fetching data from backend for the profile) and making API calls for data operations
+
+## Created frontend components in react - branch: CreateComp
+
+- Created three components Navbar.jsx, Login.jsx and Signup.jsx
 
 # PLAN
 
