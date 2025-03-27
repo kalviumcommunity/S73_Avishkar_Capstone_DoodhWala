@@ -27,14 +27,9 @@ export const registerUser = async (req, res) => {
       contactNo,
     });
     console.log(newUser);
-    // Generate JWT token
-    const token = jwt.sign({ id: newUser._id }, process.env.JWT_SECRET, {
-      expiresIn: "14d",
-    });
 
     res.status(201).json({
       message: "User registered successfully",
-      token,
       user: {
         id: newUser._id,
         name: newUser.name,
