@@ -31,8 +31,9 @@ const Login = () => {
         password: formData.password,
       });
 
-      // Store the token in Local Storage
+      // Store the token and userRole in Local Storage
       localStorage.setItem("token", res.data.token);
+      localStorage.setItem("userRole", res.data.user.role);
 
       console.log(res.data);
       alert("Login Successful!");

@@ -6,6 +6,7 @@ import User from "../models/user.js";
 export const registerUser = async (req, res) => {
   try {
     const { name, email, password, role, contactNo } = req.body;
+    console.log(role);
 
     // Check if user exists
     const userExists = await User.findOne({ email });
@@ -25,7 +26,7 @@ export const registerUser = async (req, res) => {
       role,
       contactNo,
     });
-
+    console.log(newUser);
     // Generate JWT token
     const token = jwt.sign({ id: newUser._id }, process.env.JWT_SECRET, {
       expiresIn: "14d",

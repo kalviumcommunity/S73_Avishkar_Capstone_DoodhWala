@@ -109,6 +109,9 @@
 
 - Implemented authentication logic for the loggin in of user (authController.js)
 
+## Implemented Navbar Frontend (UI) - branch: Navbar
+- Implemented the Navbar frontend components for both milkman and customer and implemented role based navbar rendering.
+  
 # PLAN
 
 ## 📌 Week 1: Project Setup & Authentication

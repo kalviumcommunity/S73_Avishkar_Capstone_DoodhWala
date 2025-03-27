@@ -3,6 +3,7 @@ import dotenv from "dotenv";
 import cors from "cors";
 import mongoose from "mongoose";
 import authRoutes from "./routes/authRoutes.js";
+import profileRoutes from "./routes/profileRoutes.js";
 
 //Loading the environment variables
 dotenv.config();
@@ -18,6 +19,7 @@ app.use(cors()); // Enable CORS
 
 // Authentication routes
 app.use("/api/auth", authRoutes);
+app.use("/api", profileRoutes);
 
 // Connect to MongoDB
 const connectDB = async () => {
