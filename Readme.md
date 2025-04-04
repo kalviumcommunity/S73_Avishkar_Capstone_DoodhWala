@@ -108,6 +108,9 @@
 
 - Implemented authentication logic for the loggin in of user (authController.js)
 
+## Implemented Google authentication in application
+- Implemented google authentication using Passport JS in my application
+
 # PLAN
 
 ## 📌 Week 1: Project Setup & Authentication
