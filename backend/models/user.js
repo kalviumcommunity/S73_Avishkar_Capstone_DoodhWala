@@ -25,6 +25,11 @@ const UserSchema = new mongoose.Schema(
       required: true,
       unique: true,
     },
+    googleId: {
+      type: String,
+      unique: true,
+      sparse: true, // Allows multiple null values (for non-Google users)
+    },
   },
   {
     timestamps: true,
