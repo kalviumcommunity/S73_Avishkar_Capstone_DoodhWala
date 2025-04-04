@@ -112,6 +112,10 @@
 ## Implemented Navbar Frontend (UI) - branch: Navbar
 - Implemented the Navbar frontend components for both milkman and customer and implemented role based navbar rendering.
   
+
+## Implemented Google authentication in application - branch: GoogleOauth
+- Implemented google authentication using Passport JS in my application
+
 # PLAN
 
 ## 📌 Week 1: Project Setup & Authentication
