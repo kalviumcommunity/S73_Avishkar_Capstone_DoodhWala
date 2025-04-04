@@ -1,6 +1,6 @@
 # DOODHWALA WEB APPLICATION
 
-## Project: DOODHWALA🥛
+## Project: DOODHWALA 🥛
 
 ### Problem Statement:
 
@@ -91,6 +91,7 @@
 
 - GET API has been implemented to access user details for the Profile
 
+
 ## POST API used - branch: POSTapi
 
 - POST API has been implemented to fetch the signup and login data from the request body, also I did implement the Login and Signup functionality
@@ -108,7 +109,11 @@
 
 - Implemented authentication logic for the loggin in of user (authController.js)
 
-## Implemented Google authentication in application
+## Implemented Navbar Frontend (UI) - branch: Navbar
+- Implemented the Navbar frontend components for both milkman and customer and implemented role based navbar rendering.
+  
+
+## Implemented Google authentication in application - branch: GoogleOauth
 - Implemented google authentication using Passport JS in my application
 
 # PLAN
