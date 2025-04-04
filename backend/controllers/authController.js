@@ -28,7 +28,7 @@ export const registerUser = async (req, res) => {
       contactNo,
     });
     console.log(newUser);
-    a;
+
     res.status(201).json({
       message: "User registered successfully",
       user: {
